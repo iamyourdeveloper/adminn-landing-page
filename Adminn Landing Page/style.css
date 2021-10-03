@@ -22,7 +22,7 @@ button {
     outline: none;
 }
 
-.s1 button, .s2 button, .s3 button, .s4 button {
+.s1 button, .s3 button, .s4 button {
     font-size: 16px;
     letter-spacing: 1px;
 }
