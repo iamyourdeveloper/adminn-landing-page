@@ -913,8 +913,6 @@ small {
 }
 
 .sign-in {
-    position: relative;
-    left: 0%;
     background-color:#5165f8;
     color: #fff;
     font-family: 'Baloo 2', cursive;
@@ -923,7 +921,6 @@ small {
     letter-spacing: 1px;
     padding: .15rem 6rem;
     border-radius: 2rem;
-    margin: .5rem 0 .2rem 0;
     border: solid #5165f8;
     outline: none;
     cursor: pointer;
