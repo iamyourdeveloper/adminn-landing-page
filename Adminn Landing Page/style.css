@@ -924,6 +924,7 @@ small {
     border: solid #5165f8;
     outline: none;
     cursor: pointer;
+    width: 90%;
     
     transition: .3s;
 }
@@ -1028,6 +1029,7 @@ small {
 #sign-up-no {
     font-family: 'Baloo 2', cursive;
     font-weight: 500;
+    font-size: 14px;
     margin: 1rem 0 0 0;
     background-color: transparent;
     border: none;
