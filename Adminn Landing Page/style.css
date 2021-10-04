@@ -42,16 +42,16 @@ body {
 
 .navbar {
     background-color: transparent;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(1, 60px);
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 30px 10px 40px 15px;
     z-index: 100;
     transition: .5s;
-}
-
-.active-nav {
-    padding: 20px 10px 40px 15px;
 }
 
 #desk-nav {
@@ -176,11 +176,12 @@ body {
 }
 
 .top-logo {
-    position: fixed;
+    padding: 0 0 0 1.5rem;
 }
 
 .active-logo {
-    top: 0%;
+    top: -1.4%;
+    padding: 0rem 0 0 0;
 }
 
 .backdrop {
@@ -198,6 +199,7 @@ body {
     backdrop-filter: blur(25px) saturate(181%);
     -webkit-backdrop-filter: blur(25px) saturate(181%);
     background-color: rgba(255, 255, 255, 0.5);
+    height: 4.8rem;
 }
 
 .logo {
@@ -1259,6 +1261,7 @@ small {
     .top-logo {
         position: relative;
         bottom: 1.1rem;
+        padding: 0;
     }
 
     .open {
@@ -1273,7 +1276,8 @@ small {
         display: grid;
         align-items: center;
         justify-content: center;
-        grid-template-columns: 19% 50% 20%;
+        grid-template-columns: 20% 50% 18%;
+        grid-template-rows: repeat(1, 95px);
     }
 
     #desk-nav {
