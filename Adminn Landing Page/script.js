@@ -41,13 +41,11 @@ window.onscroll = function() {
     var top = window.scrollY;
     console.log(top);
     if (top >= 50){
-        navbar.classList.add('active-nav')
         navbar.classList.add('active-logo')
         openV.classList.add('active-open')
         closeV.classList.add('active-close')
         backdrop.classList.add('active-bk-drop')
     } else {
-        navbar.classList.remove('active-nav');
         navbar.classList.remove('active-logo')
         openV.classList.remove('active-open');
         closeV.classList.remove('active-close');
