@@ -926,7 +926,6 @@ small {
     border: solid #5165f8;
     outline: none;
     cursor: pointer;
-    width: 90%;
     
     transition: .3s;
 }
