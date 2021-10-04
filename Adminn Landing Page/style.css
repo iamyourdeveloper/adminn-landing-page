@@ -863,15 +863,15 @@ small {
     display: grid;
     align-items: center;
     justify-content: start;
-    padding: 0 0 0 1.8rem;
+    padding: 0 0 0 2rem;
 }
 
 .log-ip {
     border: 2px solid #242d52;
     font-family: 'Baloo 2', cursive;
     font-weight: 400;
-    padding: .1rem 3rem 0rem 1rem;
-    margin: .3rem 0 0 0;
+    padding: .1rem 3rem .1rem 1rem;
+    margin: .5rem 0 0 0;
     border-radius: 5rem;
     background-color: transparent;
     outline: none;
