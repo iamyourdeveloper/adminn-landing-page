@@ -230,6 +230,14 @@ document.getElementById('forgot-pw-id').addEventListener("click", function() {
   document.querySelector('body').style.overflow = "visible";
 });
 
+document.getElementById('hid-overlay-2').addEventListener("click", function() {
+  document.querySelector('.sign-form').style.opacity = "0";
+  document.querySelector('.sign-form').style.visibility = "hidden";
+  document.querySelector('.sign-box').style.transform = "translateY(-150%)";
+  document.querySelector('.sign-box').style.transition = ".3s";
+  document.querySelector('body').style.overflow = "visible";
+});
+
 
 // Modals to disappear on click outside Script:
 const modal = document.querySelector(".modal");
