@@ -859,11 +859,15 @@ small {
     margin: 2rem 0 0 0;
 }
 
-.log-lb {
+.log-ip-div {
     display: grid;
     align-items: center;
-    justify-content: start;
-    padding: 0 0 0 2rem;
+    justify-content: center;
+    grid-template-columns: 80%;
+}
+
+.log-lb {
+    text-align: left;
 }
 
 .log-ip {
