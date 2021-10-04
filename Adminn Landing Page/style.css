@@ -769,6 +769,16 @@ small {
     transition: .5s;
 }
 
+#hid-overlay-2 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 18%;
+    width: 100%;
+    background-color: transparent;
+    z-index: 120;
+}
+
 .sign-box {
     text-align: center;
     font-family: 'Baloo 2', cursive;
